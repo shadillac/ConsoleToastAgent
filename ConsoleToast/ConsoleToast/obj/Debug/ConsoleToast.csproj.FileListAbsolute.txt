@@ -1,0 +1,9 @@
+C:\Users\shmorris\Documents\Visual Studio 2013\Projects\ConsoleToast\ConsoleToast\bin\Debug\ConsoleToast.exe.config
+C:\Users\shmorris\Documents\Visual Studio 2013\Projects\ConsoleToast\ConsoleToast\bin\Debug\ConsoleToast.exe
+C:\Users\shmorris\Documents\Visual Studio 2013\Projects\ConsoleToast\ConsoleToast\bin\Debug\ConsoleToast.pdb
+C:\Users\shmorris\Documents\Visual Studio 2013\Projects\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.csprojResolveAssemblyReference.cache
+C:\Users\shmorris\Documents\Visual Studio 2013\Projects\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.exe
+C:\Users\shmorris\Documents\Visual Studio 2013\Projects\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.pdb
+C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\bin\Debug\ConsoleToast.exe.config
+C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.exe
+C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.pdb
