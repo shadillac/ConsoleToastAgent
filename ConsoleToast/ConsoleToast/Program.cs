@@ -24,7 +24,7 @@ namespace ConsoleToast
     {
         static IMobileServiceTable<PushItems> PushTable;
         static MobileServiceCollection<PushItems, PushItems> pushdata;
-        static string token = "";
+        //static string token = "";
 
         static void Main(string[] args)
         {
@@ -123,6 +123,9 @@ namespace ConsoleToast
                             // Normally, error handling code would be here. In the real world, because data connections are not always available,
                             // notifications may need to be throttled back if the device cannot be reached.
                             Console.WriteLine(notificationStatus + " | " + deviceConnectionStatus + " | " + notificationChannelStatus);
+
+                            //delete the row after toasting.
+                            await PushTable.DeleteAsync(pdata);
                         }
                     }
                 }
