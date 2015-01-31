@@ -53,7 +53,6 @@ namespace ConsoleToast
                 //wc.UploadStringCompleted += wc_UploadStringCompleted;
                 //string parameters = "username=shadillac&password=Niggaplease9&key=9e1a8b1978ef122c171e471f15419c9f";
                 //wc.UploadStringAsync(new Uri("https://api.hockeystreams.com/Login?"), "POST", parameters);
- 
 
                 HttpClient hc = new HttpClient();
                 string jsonResp = await hc.GetStringAsync("https://api.hockeystreams.com/GetLive?date=" + DateTime.Now.ToString("MM/dd/yyyy") + "&token=dVdwSDUxbU14NVZNWDZReVoyN2RTcVlDdWhlYStzcFBGMllTbUlYV2ZSN0dUTmd4Uk52dmRPNGdsN0FoUnhvaHgyVHAxVk5YMWJNUWM5M3paTy9MM0FCTU5NTStxUm00SE5wNm12NUVhRFE9");
@@ -124,8 +123,11 @@ namespace ConsoleToast
                             // notifications may need to be throttled back if the device cannot be reached.
                             Console.WriteLine(notificationStatus + " | " + deviceConnectionStatus + " | " + notificationChannelStatus);
 
-                            //delete the row after toasting.
-                            await PushTable.DeleteAsync(pdata);
+                            if (notificationStatus == "Received")
+                            {
+                                //delete the row after toasting.
+                                await PushTable.DeleteAsync(pdata);
+                            }
                         }
                     }
                 }

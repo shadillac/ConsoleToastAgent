@@ -9,7 +9,6 @@ C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\o
 C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.pdb
 C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\bin\Debug\ConsoleToast.exe
 C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\bin\Debug\ConsoleToast.pdb
-C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\obj\Debug\ConsoleToast.csprojResolveAssemblyReference.cache
 C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\shmorris\Documents\GitHub\ConsoleToastAgent\ConsoleToast\ConsoleToast\bin\Debug\Newtonsoft.Json.dll
